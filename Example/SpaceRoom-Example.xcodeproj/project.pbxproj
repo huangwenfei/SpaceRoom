@@ -48,6 +48,7 @@
 		232708872E5B5B6F0024597E /* SpaceRoom-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceRoom-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2346BBE22E5F0960008548BE /* Tap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tap.gif; sourceTree = "<group>"; };
 		2346BBE32E5F0960008548BE /* Slide.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Slide.gif; sourceTree = "<group>"; };
+		2346BBE62E5F1009008548BE /* Segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Segment.png; sourceTree = "<group>"; };
 		234D2B7D2E5C5AD800BB9F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		234D2B7E2E5C5AD800BB9F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234D2B7F2E5C5AD800BB9F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		234D2B962E5C5AE100BB9F57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2346BBE62E5F1009008548BE /* Segment.png */,
 				2346BBE22E5F0960008548BE /* Tap.gif */,
 				2346BBE32E5F0960008548BE /* Slide.gif */,
 			);
