@@ -63,6 +63,8 @@ open class ContainerViewController<Index: ContainerViewIndex>: UIViewController,
     open var contents: [Index: IndexContent] = [:]
     open var selectedContent: IndexContent? = nil
     
+    open var selectedIndex: Index? { selectedContent?.index }
+    
     private var isSetContentRoot: Bool = false
     
     private var isAddSlideObserver: Bool = false

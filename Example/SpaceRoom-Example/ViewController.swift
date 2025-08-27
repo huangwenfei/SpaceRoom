@@ -10,7 +10,11 @@ import Yang
 import SpaceRoom
 import ScrollableSegment
 
-enum Index: Int, Hashable, CaseIterable, ContainerSlideDiretionIndex {
+//enum Index: Int, CaseIterable, ContainerViewIndex {
+//    case yellow, red, purple
+//}
+
+enum Index: Int, CaseIterable, ContainerSlideDiretionIndex {
     case yellow, red, purple
     
     public var loopPreview: Self {
@@ -130,7 +134,7 @@ class ViewController: ContainerViewController<Index> {
         .yellow
     }
     
-    override func container(_ container: ContainerViewController<Index>, contentAtIndex index: Index) -> ContainerViewController<Index>.Content {
+    override func container(_ container: ContainerViewController<Index>, contentAtIndex index: Index) -> Content {
 
         switch index {
         case .yellow: return YellowController()
