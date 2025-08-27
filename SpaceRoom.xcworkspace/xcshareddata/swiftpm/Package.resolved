@@ -1,0 +1,24 @@
+{
+  "originHash" : "4014a0675558e390c7b5e6ae2e8e550147bbb49240ae64e3bae8c0ff9ac5ca61",
+  "pins" : [
+    {
+      "identity" : "scrollablesegment",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huangwenfei/ScrollableSegment",
+      "state" : {
+        "revision" : "b0556098bc7726d2ea05d49c79ab1ddabb363646",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "yang",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huangwenfei/Yang",
+      "state" : {
+        "revision" : "31ba591d1da0d5461a0cbc2b5eaf661f0dd38be8",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
